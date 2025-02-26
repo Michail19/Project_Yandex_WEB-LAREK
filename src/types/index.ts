@@ -1,5 +1,5 @@
 // Товар в магазине
-export interface ProductItem {
+export interface IProductItem {
   id: string;
   title: string;
   description: string;
@@ -9,12 +9,12 @@ export interface ProductItem {
 }
 
 // Действия с элементами интерфейса
-export interface Actions {
+export interface IActions {
   onClick: (event: MouseEvent) => void;
 }
 
 // Интерфейс для данных формы заказа
-export interface OrderForm {
+export interface IOrderForm {
 payment?: string;
 address?: string;
 phone?: string;
@@ -23,12 +23,12 @@ total?: string | number;
 }
 
 // Список товаров в заказе
-export interface Order extends OrderForm {
+export interface IOrder extends IOrderForm {
   items: string[];
 }
 
 // Описание заказа в конкретном лоте
-export interface OrderLot{
+export interface IOrderLot{
   payment: string;
   email: string;
   phone: string;
@@ -38,10 +38,10 @@ export interface OrderLot{
 }
 
 // Результат оформления заказа
-export interface OrderResult {
+export interface IOrderResult {
   id: string;
   total: number;
 }
 
 // Ошибки формы
-export type FormErrors = Partial<Record<keyof IOrder, string>>;
+export type IFormErrors = Partial<Record<keyof IOrder, string>>;
