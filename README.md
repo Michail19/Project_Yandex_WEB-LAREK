@@ -87,5 +87,5 @@ yarn build
 - **View** – UI-компоненты (`ProductList`, `Cart`).
 
 
-## UML-схема
+<!--## UML-схема-->
 
