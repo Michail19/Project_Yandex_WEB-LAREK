@@ -9,7 +9,7 @@ export interface IBasketModel {
   clearBasketProducts(): void
 }
 
-export class BasketiModel {
+export class BasketModel {
   protected pBasketProducts: IProductItem[]; // список карточек товара в корзине
 
   constructor() {
