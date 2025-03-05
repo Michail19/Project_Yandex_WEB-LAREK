@@ -159,3 +159,4 @@ yarn build
 
 ## UML-схема
 
+![photo_5332376037889272126_y](https://github.com/user-attachments/assets/4bd249d5-e724-46b3-807e-e845140b5793)
